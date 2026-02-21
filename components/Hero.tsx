@@ -124,7 +124,7 @@ export default function Hero() {
               className="mb-4"
             >
               <h2 className="text-4xl sm:text-7xl font-bold bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent">
-                CodePact
+                Commito
               </h2>
             </motion.div>
             
