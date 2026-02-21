@@ -123,8 +123,8 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="mb-4"
             >
-              <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent">
-                CodeCircle
+              <h2 className="text-4xl sm:text-7xl font-bold bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent">
+                CodePact
               </h2>
             </motion.div>
             
