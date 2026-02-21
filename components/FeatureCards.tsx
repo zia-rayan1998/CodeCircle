@@ -5,11 +5,11 @@ import { useState, useEffect } from 'react'
 
 const featureLines = [
   "We don't do on-and-off relationships.",
-  "No ghosting. Not here Bro.",
-  "Missing them don't build u, Staying consistent does. ",
-  "U lost her again, Atleast don't loose your streak",
+  "No ghosting. Atlest Not here Bro.",
+  "Missing them don't build u, Staying consistent does. K ",
+  "U lost her again, hehe. Atleast don't loose your streak",
   "Consistency is not optional.",
-  "No reminders. No excuses. Just code re.",
+  "No reminders. No excuses. Just code macha.",
   "Tomorrow isn't a strategy.",
 ]
 
