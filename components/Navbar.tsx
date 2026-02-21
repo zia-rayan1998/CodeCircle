@@ -26,7 +26,7 @@ export default function Navbar() {
               whileTap={{ scale: 0.95 }}
               className="text-2xl font-bold bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent cursor-pointer"
             >
-              CodeCircle
+              Commito
             </motion.button>
 
             {/* Navigation Links */}
