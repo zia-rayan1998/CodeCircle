@@ -38,19 +38,19 @@ export default function Hero() {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-12 items-center">
           {/* Left side - Text content */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center lg:text-left"
+            className="text-center lg:text-left flex flex-col items-center lg:items-start"
           >
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight"
+              className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight"
             >
               <HoverableText defaultColor="white" hoverColor="orange" className="block">
                 Code Together.
@@ -67,13 +67,13 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl mx-auto lg:mx-0"
+              className="text-base sm:text-lg lg:text-xl text-gray-300 mb-8 max-w-2xl mx-auto lg:mx-0"
             >
               A Chrome Extension that automatically tracks your LeetCode and GFG activity 
               and turns coding into a serious accountability system.
             </motion.p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto items-center sm:items-start">
               <motion.button
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -114,7 +114,7 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.3 }}
-            className="h-[400px] sm:h-[500px] lg:h-[600px] w-full flex flex-col items-center justify-center"
+            className="h-[320px] sm:h-[420px] lg:h-[600px] w-full flex flex-col items-center justify-center"
           >
             {/* CodeCircle name above cube */}
             <motion.div
@@ -123,12 +123,12 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="mb-4"
             >
-              <h2 className="text-4xl sm:text-7xl font-bold bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent">
+              <h2 className="text-3xl sm:text-5xl lg:text-7xl font-bold bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent">
                 Commito
               </h2>
             </motion.div>
             
-            <div className="h-[400px] sm:h-[500px] lg:h-[550px] w-full">
+            <div className="h-[280px] sm:h-[380px] lg:h-[550px] w-full max-w-md sm:max-w-lg lg:max-w-none mx-auto">
               <Canvas camera={{ position: [0, 0, 5], fov: 50 }}>
                 <ambientLight intensity={0.5} />
                 <pointLight position={[10, 10, 10]} intensity={1} />
