@@ -7,7 +7,7 @@ export default function WhoCanUseIt() {
   const features = [
     {
       title: 'Coders who are procrastinating',
-      description: 'Struggling to start? CodeCircle creates the accountability you need to overcome procrastination and build consistent coding habits.',
+      description: 'Struggling to start? Commito creates the accountability you need to overcome procrastination and build consistent coding habits.',
     },
     {
       title: 'Developers who want to stay focused',
@@ -15,7 +15,7 @@ export default function WhoCanUseIt() {
     },
     {
       title: 'Students preparing for interviews',
-      description: 'Build a strong coding streak while preparing for technical interviews. Track your progress on LeetCode and GeeksforGeeks automatically.',
+      description: 'Build a strong coding streak while preparing for technical interviews. Track your progress on LeetCode automatically.',
     },
     {
       title: 'Teams building coding habits together',
